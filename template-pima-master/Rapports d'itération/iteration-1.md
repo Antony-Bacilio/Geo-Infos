@@ -11,8 +11,9 @@
 ## Bilan de l'itération précédente  
 ### Évènements 
 *Quels sont les évènements qui ont marqué l'itération précédente? Répertoriez ici les évènements qui ont eu un impact sur ce qui était prévu à l'itération précédente.*
-> Nous avons mal utilisé quelques User Stories, il faudra donc les modifier.
-> Le fait d'avoir une autre application faisant presque la même chose et même mieux (Google Maps) nous oblige à modifier les fonctionnalités du projet afin de proposer des choses différentes.
+> - Nous avons mal utilisé quelques User Stories, il faudra donc les modifier.
+
+> - Le fait d'avoir une autre application faisant presque la même chose et même mieux (Google Maps) nous oblige à modifier les fonctionnalités du projet afin de proposer des choses différentes.
 
 
 ### Taux de complétion de l'itération  

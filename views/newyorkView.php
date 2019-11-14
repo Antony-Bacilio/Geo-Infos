@@ -21,6 +21,8 @@
   <meta name="twitter:title" content="">
   <meta name="twitter:description" content="">
   <meta name="twitter:image" content="">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="newyork.js"> </script>
 
   <!-- Favicon -->
   <link href="../img/favicon.ico" rel="icon">
@@ -145,7 +147,7 @@
               </div>
 
               <div>
-                <h3>Démografie</h3>
+                <h3>Démographie</h3>
 
                 <p>
                 Ville la plus peuplée des États-Unis, avec environ 8,398,748 résidents à partir de Juillet 2018 , incorporant plus d' immigration dans la ville que depuis dévalaison les États-Unis Recensement 2010.
@@ -191,7 +193,6 @@
               </div>
             </div>
           </div>
-
           <div class="feature-col col-lg-4 col-xs-12">
             <div class="card card-block text-center">
               <div>
@@ -209,7 +210,12 @@
               </div>
             </div>
           </div>
-
+			<div class="country-container">
+			<p class="country">Pays : </p>
+			<p class="population">Population : </p>
+			<p class="region">Région : </p>
+			<p class="latitude">Latitude : </p>
+			<p class="longitude">Longitude : </p>
          </div>
       </div>
     </section>

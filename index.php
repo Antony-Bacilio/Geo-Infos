@@ -58,7 +58,7 @@
         </div>
 
         <div class="col-md-12">
-          <h1>Plus proche de toi...</h1>
+          <h1>Combien connaissez-vous sur les villes ?</h1>
           <p class="tagline">
             Récupérez des informations d’API se basant sur votre localisation.
           </p>
@@ -121,7 +121,7 @@
     <section class="about" id="about">
       <div class="container text-center">
         <h2>
-            Qui sommes-nous
+            Comment jouer ?
           </h2>
 
         <p>
@@ -130,29 +130,26 @@
         </p>
 
         <div class="row stats-row">
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">232</span> Satisfied Customers
-            </div>
-          </div>
 
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">79</span> Released Projects
+            <div class="stats-col text-center col-md-4 col-sm-6">
+              <div class="circle">
+                <span class="stats-no" data-toggle="counter-up">10</span> Points à faire
+              </div>
             </div>
-          </div>
 
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">1,463</span> Hours Of Support
+            <div class="stats-col text-center col-md-4 col-sm-6">
+              <div class="circle">
+                <span class="stats-no" data-toggle="counter-up">5</span> Maximum d'erreurs
+              </div>
             </div>
-          </div>
 
-          <div class="stats-col text-center col-md-3 col-sm-6">
-            <div class="circle">
-              <span class="stats-no" data-toggle="counter-up">15</span> Hard Workers
+            <div class="stats-col text-center col-md-4 col-sm-6">
+              <div class="circle">
+                <span class="stats-no" data-toggle="counter-up">4</span>Niveux
+              </div>
             </div>
-          </div>
+
+
         </div>
       </div>
     </section>
@@ -164,12 +161,11 @@
 
     <div class="block bg-primary block-pd-lg block-bg-overlay text-center" data-bg-img="img/parallax-bg.jpg" data-settings='{"stellar-background-ratio": 0.6}' data-toggle="parallax-bg">
       <h2>
-          Quelques exemples (?)
-        </h2>
-
-      <p>
-        bla bla bla....
-      </p>
+          A V A N T &nbsp;&nbsp; D E    &nbsp;&nbsp;   C O M M E N C E R &nbsp;. . .
+      </h2>
+      <br>
+      <br>
+      <br>
 
       <!-- FORMULAIRE INSCRIPTION-->
       <?php
@@ -186,7 +182,7 @@
 
   <!-- Features -->
 
-    <section class="features" id="features">
+   <!-- <section class="features" id="features">
       <div class="container">
         <h2 class="text-center">
             Features
@@ -316,7 +312,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
   <!-- /Features -->
 
@@ -326,7 +322,7 @@
     <section class="portfolio" id="portfolio">
       <div class="container text-center">
         <h2>
-            Portfolio
+            Quelques villes :
           </h2>
 
         <p>
@@ -336,13 +332,14 @@
 
       <div class="portfolio-grid">
         <div class="row">
+
           <div class="col-lg-3 col-sm-6 col-xs-12">
             <div class="card card-block">
-              <a href="#"><img alt="" src="img/porf-1.jpg">
+              <a href="views/casablancaView.php"><img alt="" src="img/casablanca_log.jpg">
                 <div class="portfolio-over">
                   <div>
                     <h3 class="card-title">
-                      The Dude Rockin'
+                      Afrique
                     </h3>
 
                     <p class="card-text">
@@ -355,11 +352,11 @@
 
           <div class="col-lg-3 col-sm-6 col-xs-12">
             <div class="card card-block">
-              <a href="#"><img alt="" src="img/porf-2.jpg">
+              <a href="views/limaView.php"><img alt="" src="img/lima_log.jpg">
                 <div class="portfolio-over">
                   <div>
                     <h3 class="card-title">
-                      The Dude Rockin'
+                      Amerique du Sud
                     </h3>
 
                     <p class="card-text">
@@ -372,11 +369,11 @@
 
           <div class="col-lg-3 col-sm-6 col-xs-12">
             <div class="card card-block">
-              <a href="#"><img alt="" src="img/porf-3.jpg">
+              <a href="views/madridView.php"><img alt="" src="img/madrid_log.jpg">
                 <div class="portfolio-over">
                   <div>
                     <h3 class="card-title">
-                      The Dude Rockin'
+                      Europe Est
                     </h3>
 
                     <p class="card-text">
@@ -389,11 +386,11 @@
 
           <div class="col-lg-3 col-sm-6 col-xs-12">
             <div class="card card-block">
-              <a href="#"><img alt="" src="img/porf-4.jpg">
+              <a href="views/moscuView.php"><img alt="" src="img/moscu_log.jpg">
                 <div class="portfolio-over">
                   <div>
                     <h3 class="card-title">
-                      The Dude Rockin'
+                      Europe Ouest
                     </h3>
 
                     <p class="card-text">
@@ -408,11 +405,11 @@
         <div class="row">
           <div class="col-lg-3 col-sm-6 col-xs-12">
             <div class="card card-block">
-              <a href="#"><img alt="" src="img/porf-5.jpg">
+              <a href="views/newyorkView.php"><img alt="" src="img/new_york_log.jpg">
                 <div class="portfolio-over">
                   <div>
                     <h3 class="card-title">
-                      The Dude Rockin'
+                      Amerique du Norte
                     </h3>
 
                     <p class="card-text">
@@ -425,11 +422,11 @@
 
           <div class="col-lg-3 col-sm-6 col-xs-12">
             <div class="card card-block">
-              <a href="#"><img alt="" src="img/porf-6.jpg">
+              <a href="views/parisView.php"><img alt="" src="img/paris_log.jpg">
                 <div class="portfolio-over">
                   <div>
                     <h3 class="card-title">
-                      The Dude Rockin'
+                      Europe Est
                     </h3>
 
                     <p class="card-text">
@@ -442,11 +439,11 @@
 
           <div class="col-lg-3 col-sm-6 col-xs-12">
             <div class="card card-block">
-              <a href="#"><img alt="" src="img/porf-7.jpg">
+              <a href="views/romaView.php"><img alt="" src="img/roma_log.jpg">
                 <div class="portfolio-over">
                   <div>
                     <h3 class="card-title">
-                      The Dude Rockin'
+                      Europe Est
                     </h3>
 
                     <p class="card-text">
@@ -459,11 +456,11 @@
 
           <div class="col-lg-3 col-sm-6 col-xs-12">
             <div class="card card-block">
-              <a href="#"><img alt="" src="img/porf-8.jpg">
+              <a href="views/sydneyView.php"><img alt="" src="img/sydney_log.jpg">
                 <div class="portfolio-over">
                   <div>
                     <h3 class="card-title">
-                      The Dude Rockin'
+                      Océanie
                     </h3>
 
                     <p class="card-text">
@@ -473,6 +470,7 @@
                 </div></a>
             </div>
           </div>
+
         </div>
       </div>
     </section>
@@ -482,7 +480,7 @@
 
   <!-- Team -->
 
-    <section class="team" id="team">
+    <!--<section class="team" id="team">
       <div class="container">
 
         <h2 class="text-center">Notre équipe</h2>
@@ -586,7 +584,7 @@
         </div>
 
       </div>
-    </section>
+    </section>-->
 
   <!-- /Team -->
 

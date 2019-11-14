@@ -56,10 +56,15 @@
 ### Titre des nouvelles User Stories  
 *Lister ici les nouveaux éléments pour l'itération suivante. Ces éléments ont dû être revus et corrigés par le PO.*
 > L'utilisateur peut lancer le jeu .
+
 > L'utilisateur peut s'informer des capitales de manière aléatoire sur la page d'accueuil .
+
 > L'utilisateur peut pointer sur une carte le lieu qu'il devine afin de gagner des points .
+
 > L'utilisateur peut deviner la capitale sans aide .
+
 > L'utilisateur peut choisir de restreindre les capitales possibles .
+
 > L'utilisateur peut choisir de voir plus d'indices en perdant des points .
 
 

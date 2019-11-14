@@ -22,9 +22,9 @@
 
 ### Liste des User Stories terminées
 *Quelles sont les User Stories qui ont été validées par le PO à la fin de l'itération ?*
-> Reorganisation de Trello . *
-> Afficher des images d'un lieu
-> Possibilité au joueur de répondre et checker si c'est la bonne réponse .
+ *Reorganisation de Trello . *
+ *Afficher des images d'un lieu . *
+ Possibilité au joueur de répondre et checker si c'est la bonne réponse .
 > Timer le score du joueur + malus si mauvaise réponse .
 > Mettre quelques cas des lieux dans la base de données comme les images à aller chercher potentiellement, des indices, langue parlée, superficie, démographie .
 ## Rétrospective de l'itération précédente

@@ -22,7 +22,7 @@
 
 ### Liste des User Stories terminées
 *Quelles sont les User Stories qui ont été validées par le PO à la fin de l'itération ?*
-> Reorganisation de Trello
+> Reorganisation de Trello . *
 > Afficher des images d'un lieu
 > Possibilité au joueur de répondre et checker si c'est la bonne réponse .
 > Timer le score du joueur + malus si mauvaise réponse .

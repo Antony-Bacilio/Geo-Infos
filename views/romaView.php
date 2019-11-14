@@ -21,6 +21,8 @@
   <meta name="twitter:title" content="">
   <meta name="twitter:description" content="">
   <meta name="twitter:image" content="">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="roma.js"> </script>
 
   <!-- Favicon -->
   <link href="../img/favicon.ico" rel="icon">
@@ -95,6 +97,8 @@
 
 
 <!-- Formulaire réponse -->
+
+	
    <section class="features" id="features">
       <div class="container">
         <h2 class="text-center">
@@ -115,7 +119,7 @@
                 <h3>Description</h3>
 
                 <p>
-                  Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
+                  Cité de de l'Empire romain durant 357 ans. Elle fut fondée par Romulus en 753 AV JC d'après les mythes. Considérablement agrandie par de grands travaux sous Jules César et surtout sous Auguste, la ville est partiellement détruite lors du Grand incendie
                 </p>
               </div>
             </div>
@@ -133,7 +137,7 @@
                 <h3>Langue parlée</h3>
 
                 <p>
-                  Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
+                  Italien.
                 </p>
               </div>
             </div>
@@ -148,10 +152,10 @@
               </div>
 
               <div>
-                <h3>Démografie</h3>
+                <h3>Démographie</h3>
 
                 <p>
-                  Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
+                  2 877 215 habitants avec 2 239 hab./km2
                 </p>
               </div>
             </div>
@@ -168,8 +172,8 @@
               </div>
 
               <div>
-                <h3>Superficie</h3>
-
+                <h3>Géographie</h3>
+				Située au centre-ouest de la péninsule italienne, près de la mer Tyrrhénienne, elle est également la capitale de la région du Latium, 
                 <p>
                   Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
                 </p>
@@ -189,7 +193,7 @@
                 <h3>Nourriture</h3>
 
                 <p>
-                  Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
+                  Pizza bianca, pâtes carbonara
                 </p>
               </div>
             </div>
@@ -215,6 +219,12 @@
 
          </div>
       </div>
+	  <div class="country-container">
+      <p class="country">Pays : </p>
+      <p class="population">Population : </p>
+      <p class="region">Région : </p>
+      <p class="latitude">Latitude : </p>
+      <p class="longitude">Longitude : </p>
     </section>
 
   <!-- /Features -->

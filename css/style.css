@@ -71,6 +71,11 @@ section {
   padding: 85px 0;
 }
 
+.specific {
+	position: relative;
+	left : 150%;
+}
+
 .card {
   position: relative;
   padding: 0;
@@ -1004,3 +1009,4 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: inline-block;
   }
 }
+

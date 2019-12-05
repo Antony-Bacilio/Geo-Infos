@@ -58,9 +58,9 @@
         </div>
 
         <div class="col-md-12">
-          <h1>Combien connaissez-vous sur les villes ?</h1>
+          <h1>Connaissez vous bien les différentes pays du globe ?</h1>
           <p class="tagline">
-            Récupérez des informations d’API se basant sur votre localisation.
+            Des infos, des images, un lieu à trouver en un minimum de temps et en utilisant le moins d'indice possibles
           </p>
           <a class="btn btn-full" href="#about">Commençons !</a>
         </div>
@@ -322,11 +322,11 @@
     <section class="portfolio" id="portfolio">
       <div class="container text-center">
         <h2>
-            Quelques villes :
+            Envie de jouer ? :
           </h2>
 
         <p>
-          Voluptua scripserit per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, sed unum convenire id. Ut cum nisl moderatius, Per nihil dicant commodo an.
+          Règles du jeu : Cliquez sur l'image en dessous pour lancer le jeu. Il vous est donné plusieurs informations telles que la surperficie, la monnaie, ext... L'objectif est de trouver le pays correspondant
         </p>
       </div>
 
@@ -334,23 +334,23 @@
         <div class="row">
 
           <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
-              <a href="views/casablancaView.php"><img alt="" src="img/casablanca_log.jpg">
+            <div class="card card-block specific">
+              <a href="views/romaView.php"><img alt="" src="img/roma_log.jpg">
                 <div class="portfolio-over">
                   <div>
                     <h3 class="card-title">
-                      Afrique
+                      C'est parti !
                     </h3>
 
                     <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
+                      Bonne chance
                     </p>
                   </div>
                 </div></a>
             </div>
           </div>
 
-          <div class="col-lg-3 col-sm-6 col-xs-12">
+         <!-- <div class="col-lg-3 col-sm-6 col-xs-12">
             <div class="card card-block">
               <a href="views/limaView.php"><img alt="" src="img/lima_log.jpg">
                 <div class="portfolio-over">
@@ -439,23 +439,6 @@
 
           <div class="col-lg-3 col-sm-6 col-xs-12">
             <div class="card card-block">
-              <a href="views/romaView.php"><img alt="" src="img/roma_log.jpg">
-                <div class="portfolio-over">
-                  <div>
-                    <h3 class="card-title">
-                      Europe Est
-                    </h3>
-
-                    <p class="card-text">
-                      Lorem ipsum dolor sit amet, eu sed suas eruditi honestatis.
-                    </p>
-                  </div>
-                </div></a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-6 col-xs-12">
-            <div class="card card-block">
               <a href="views/sydneyView.php"><img alt="" src="img/sydney_log.jpg">
                 <div class="portfolio-over">
                   <div>
@@ -472,8 +455,8 @@
           </div>
 
         </div>
-      </div>
-    </section>
+      </div>-->
+    </section> 
 
   <!-- /Portfolio -->
 

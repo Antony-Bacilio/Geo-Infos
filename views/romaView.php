@@ -48,6 +48,12 @@
   
   <!-- Header -->
 
+  
+	<?php
+	$countries = array("Afghanistan", "Albania", "Algeria", "American Samoa", "Andorra", "Angola", "Anguilla", "Antarctica", "Antigua and Barbuda", "Argentina", "Armenia", "Aruba", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Bosnia and Herzegowina", "Botswana", "Bouvet Island", "Brazil", "British Indian Ocean Territory", "Brunei Darussalam", "Bulgaria", "Burkina Faso", "Burundi", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Cayman Islands", "Central African Republic", "Chad", "Chile", "China", "Christmas Island", "Cocos (Keeling) Islands", "Colombia", "Comoros", "Congo", "Congo, the Democratic Republic of the", "Cook Islands", "Costa Rica", "Cote d'Ivoire", "Croatia (Hrvatska)", "Cuba", "Cyprus", "Czech Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "East Timor", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia", "Falkland Islands (Malvinas)", "Faroe Islands", "Fiji", "Finland", "France", "France Metropolitan", "French Guiana", "French Polynesia", "French Southern Territories", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", "Gibraltar", "Greece", "Greenland", "Grenada", "Guadeloupe", "Guam", "Guatemala", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Heard and Mc Donald Islands", "Holy See (Vatican City State)", "Honduras", "Hong Kong", "Hungary", "Iceland", "India", "Indonesia", "Iran (Islamic Republic of)", "Iraq", "Ireland", "Israel", "Italy", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kiribati", "Korea, Democratic People's Republic of", "Korea, Republic of", "Kuwait", "Kyrgyzstan", "Lao, People's Democratic Republic", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libyan Arab Jamahiriya", "Liechtenstein", "Lithuania", "Luxembourg", "Macau", "Macedonia, The Former Yugoslav Republic of", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall Islands", "Martinique", "Mauritania", "Mauritius", "Mayotte", "Mexico", "Micronesia, Federated States of", "Moldova, Republic of", "Monaco", "Mongolia", "Montserrat", "Morocco", "Mozambique", "Myanmar", "Namibia", "Nauru", "Nepal", "Netherlands", "Netherlands Antilles", "New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Niue", "Norfolk Island", "Northern Mariana Islands", "Norway", "Oman", "Pakistan", "Palau", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Pitcairn", "Poland", "Portugal", "Puerto Rico", "Qatar", "Reunion", "Romania", "Russian Federation", "Rwanda", "Saint Kitts and Nevis", "Saint Lucia", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Senegal", "Seychelles", "Sierra Leone", "Singapore", "Slovakia (Slovak Republic)", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Georgia and the South Sandwich Islands", "Spain", "Sri Lanka", "St. Helena", "St. Pierre and Miquelon", "Sudan", "Suriname", "Svalbard and Jan Mayen Islands", "Swaziland", "Sweden", "Switzerland", "Syrian Arab Republic", "Taiwan, Province of China", "Tajikistan", "Tanzania, United Republic of", "Thailand", "Togo", "Tokelau", "Tonga", "Trinidad and Tobago", "Tunisia", "Turkey", "Turkmenistan", "Turks and Caicos Islands", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "United States", "United States Minor Outlying Islands", "Uruguay", "Uzbekistan", "Vanuatu", "Venezuela", "Vietnam", "Virgin Islands (British)", "Virgin Islands (U.S.)", "Wallis and Futuna Islands", "Western Sahara", "Yemen", "Yugoslavia", "Zambia", "Zimbabwe");
+	$id = array_rand($countries, 1);
+	$pays = $countries[$id];
+	?>
     <header id="header">
       <div class="container">
         <div id="logo" class="pull-left">
@@ -97,14 +103,17 @@
 
 
 <!-- Formulaire réponse -->
-
-	
    <section class="features" id="features">
-      <div class="container">
+      <div class="country-container">
         <h2 class="text-center">
             I &nbsp;&nbsp; N &nbsp;&nbsp;D &nbsp;&nbsp;I &nbsp;&nbsp;C &nbsp;&nbsp;E &nbsp;&nbsp;S 
         </h2>
-
+		<!--<div>
+		<p class="largeImageURL">
+		<img src="<?php echo $data[largeImageURL]; ?>" />		
+		</p>
+        </div>-->
+			  
         <div class="row">
 
           <div class="feature-col col-lg-4 col-xs-12">
@@ -116,11 +125,9 @@
               </div>
 
               <div>
-                <h3>Description</h3>
+                <h3>Superficie</h3>
 
-                <p>
-                  Cité de de l'Empire romain durant 357 ans. Elle fut fondée par Romulus en 753 AV JC d'après les mythes. Considérablement agrandie par de grands travaux sous Jules César et surtout sous Auguste, la ville est partiellement détruite lors du Grand incendie
-                </p>
+               <p class="superficy"> </p>
               </div>
             </div>
           </div>
@@ -136,9 +143,8 @@
               <div>
                 <h3>Langue parlée</h3>
 
-                <p>
-                  Italien.
-                </p>
+                  <p class="language"> </p>
+
               </div>
             </div>
           </div>
@@ -154,9 +160,7 @@
               <div>
                 <h3>Démographie</h3>
 
-                <p>
-                  2 877 215 habitants avec 2 239 hab./km2
-                </p>
+                <p class="population"> </p>
               </div>
             </div>
           </div>
@@ -173,10 +177,7 @@
 
               <div>
                 <h3>Géographie</h3>
-				Située au centre-ouest de la péninsule italienne, près de la mer Tyrrhénienne, elle est également la capitale de la région du Latium, 
-                <p>
-                  Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
-                </p>
+				<p class="region"> </p>
               </div>
             </div>
           </div>
@@ -190,11 +191,9 @@
               </div>
 
               <div>
-                <h3>Nourriture</h3>
+                <h3>Monnaie</h3>
 
-                <p>
-                  Pizza bianca, pâtes carbonara
-                </p>
+                <p class="currency"> </p>
               </div>
             </div>
           </div>
@@ -208,23 +207,15 @@
               </div>
 
               <div>
-                <h3>Caracteristiques particulières</h3>
+                <h3>Capitale</h3>
 
-                <p>
-                  Eque feugiat contentiones ei has. Id summo mundi explicari his, nec in maiorum scriptorem.
-                </p>
+                <p class="capital"> </p>
               </div>
             </div>
           </div>
-
          </div>
       </div>
-	  <div class="country-container">
-      <p class="country">Pays : </p>
-      <p class="population">Population : </p>
-      <p class="region">Région : </p>
-      <p class="latitude">Latitude : </p>
-      <p class="longitude">Longitude : </p>
+	
     </section>
 
   <!-- /Features -->
@@ -248,9 +239,15 @@
                         <div class="validation"></div>
                     </div>
                     <div class="text-center"><button type="submit">Valider</button></div>
+					
+			  <div>
+                <h3>Expected : </h3>
+
+                <p class="name"> </p>
+              </div>
                     <?php 
-                      if (isset($_POST['subject']) && $_POST['subject']=="roma" ) echo '<font color="green">F E L I C I T A T I O N S ! </font>';
-                      else echo '<font color="red">Reessayez ! </font>';
+                      //if (isset($_POST['subject']) && $_POST['subject']==$pays ) echo '<font color="green">F E L I C I T A T I O N S ! </font>';
+                      //else echo '<font color="red">Reessayez ! </font>';
                     ?>
                 </form>
             </div>

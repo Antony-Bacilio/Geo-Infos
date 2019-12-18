@@ -7,7 +7,7 @@
 <body>-->
 <div class="row">
 	<div class="col-lg-4 col-xs-12">
-		<h2>InscriptionTEST</h2>
+		<h2>Inscription</h2>
 		<form method="POST" action="">
 			<table>
 				<tr>

@@ -58,7 +58,7 @@
         </div>
 
         <div class="col-md-12">
-          <h1>Connaissez vous bien les différentes pays du globe ?</h1>
+          <h1>Connaissez vous bien les différents pays du globe ?</h1>
           <p class="tagline">
             Des infos, des images, un lieu à trouver en un minimum de temps et en utilisant le moins d'indice possibles
           </p>
@@ -125,8 +125,7 @@
           </h2>
 
         <p>
-          Voluptua scripserit per ad, laudem viderer sit ex. Ex alia corrumpit voluptatibus usu, sed unum convenire id. Ut cum nisl moderatius, per nihil dicant commodo an. Eum tacimates erroribus ad. Atqui feugiat euripidis ea pri, sed veniam tacimates ex. Menandri
-          temporibus an duo.
+          Vous n'avez qu'à appuyer sur l'image jouer en dessous et c'est parti !
         </p>
 
         <div class="row stats-row">
@@ -335,7 +334,7 @@
 
           <div class="col-lg-3 col-sm-6 col-xs-12">
             <div class="card card-block specific">
-              <a href="views/romaView.php"><img alt="" src="img/roma_log.jpg">
+              <a href="views/game.php"><img alt="" src="img/test2.jpg">
                 <div class="portfolio-over">
                   <div>
                     <h3 class="card-title">
@@ -345,6 +344,7 @@
                     <p class="card-text">
                       Bonne chance
                     </p>
+					
                   </div>
                 </div></a>
             </div>
@@ -457,6 +457,8 @@
         </div>
       </div>-->
     </section> 
+	<section class="portfolio" id="portfolio">
+	  </section>
 
   <!-- /Portfolio -->
 

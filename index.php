@@ -60,7 +60,7 @@
         <div class="col-md-12">
           <h1>Connaissez vous bien les différents pays du globe ?</h1>
           <p class="tagline">
-            Des infos, des images, un lieu à trouver en un minimum de temps et en utilisant le moins d'indice possibles
+            Des infos, des images, un lieu à trouver en un minimum de temps et en utilisant le moins d'indice possible
           </p>
           <a class="btn btn-full" href="#about">Commençons !</a>
         </div>

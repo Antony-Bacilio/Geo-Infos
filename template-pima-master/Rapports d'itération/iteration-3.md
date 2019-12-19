@@ -6,8 +6,8 @@
 
 |  &nbsp;                 | Itération précédente     |
 | -------------           |-------------             |
-| **Product Owner**       | **                       |
-| **Scrum Master**        | **                       |
+| **Product Owner**       | Lucas THIBORD            |
+| **Scrum Master**        | Antony Bacilio-Salazar   |
 
 ## Bilan de l'itération précédente  
 ### Évènements 

@@ -13,7 +13,7 @@
 | THIBORD | Lucas | lucas.thibord@ensiie.fr |
 | QUEROL | Ignacio | ignacio.querolpuchal@ensiie.fr |
 
-### Sujet : 
+### Sujet : Geoguessr adapté (Deviner un pays à partir d'indices)
 
 ### Adresse du backlog : https://trello.com/b/K9emxXHJ/projet-pima
 

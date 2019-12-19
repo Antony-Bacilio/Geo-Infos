@@ -13,8 +13,8 @@
 ### Évènements 
 *Quels sont les évènements qui ont marqué l'itération précédente? Répertoriez ici les évènements qui ont eu un impact sur ce qui était prévu à l'itération précédente.*
 
-> - Certaines fonctionalittés ont coûté plus de temps que prévu au début.
-> - Pour le US37 (L'utilisateur a un visuel du lieu en question).
+> Certaines fonctionalittés ont coûté plus de temps que prévu au début.
+
 > Recherche d'une bonne API.
 
 ### Taux de complétion de l'itération  
